@@ -1,0 +1,165 @@
+/*
+Theme Name: Tonjoo
+Theme URI: http://www.tonjoo.com/
+Author: arif rohman hakim
+Author URI: http://www.barkas.hol.es/helpbos
+Description: Template untuk tes wordpress developer tonjoo
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tonjoo
+Version: 1.0
+Tags:
+*/
+
+a {
+	color: #e74b3c;
+}
+body {
+	font: 13px 'Lato', 'Seagoe Ui', sans-serif;
+}
+.pd_0 { padding: 0; }
+.pd_r_0 { padding-right: 0; }
+.pd_l_0 { padding-left: 0; }
+.primary_color {
+	background-color: #e74b3c;
+	color: #fff;
+}
+
+/* ==== TOP MENU ==== */
+.top-menu {
+	padding: 6px 0;
+	background-color: #f8f8f8;
+}
+.top-menu ul {
+	list-style: none;
+	padding: 0;
+}
+.top-menu ul li {
+	float: left;
+	padding: 5px 25px 5px 0;
+	color: #777;
+}
+.top-menu ul li i {
+	border: 1px solid #eee;
+	padding: 8px;
+	color: #e74b3c;
+	margin-right: 6px;
+}
+
+/* ==== JUMBOTRON ==== */
+.jumbotron {
+	background-color: #e74b3c;
+	color: #fff;
+	margin: 0;
+}
+.jumbotron h3 {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+}
+.jumbotron h3 a,.jumbotron h3 a:hover,.jumbotron h3 a:active{
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ==== NAVBAR ===== */
+.navbar-custom.navbar-default {
+    font-size: 13px;
+    background-color: #f8f8f8;
+    border-width: 0px;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,.5);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,.5);
+}
+.navbar-custom.navbar-default .navbar-nav>li>a {
+    background-color: transparent;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+.navbar-custom.navbar-default .navbar-nav>li>a:hover,
+.navbar-custom.navbar-default .navbar-nav>li>a:focus,.navbar-custom.navbar-default .navbar-nav>li.current-menu-item>a {
+    color: #e74b3c;
+    border-bottom-color: #e74b3c;
+}
+.navbar-collapse {
+	padding: 0;
+}
+.t_heading {
+	margin-bottom: 35px;
+}
+.thumbnail {
+	height: 150px;
+	overflow: hidden;
+	padding: 0;
+	border:none;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,.5);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,.5);
+}
+
+#company_info #map, #company_info .detail_info{
+margin: 0 -15px
+}
+#company_info .detail_info {
+	display: table;
+	height: 400px;
+
+}
+#company_info .detail_info span {
+	display: table-cell; 
+  vertical-align: middle;
+}
+.gm-style-iw {
+	color: black;
+}
+.list-inline.social a{
+	color: #999;
+}
+.list-inline.social a:hover{
+	color: #e74b3c;
+}
+
+/* ==== BANNER ==== */
+.banner-col {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.thumbnail.banner {
+	height: 200px;
+	position: relative;
+}
+.thumbnail.banner h3.caption{
+	background-color: rgba(0,0,0,.6);
+	position: absolute;
+	width: 100%;
+	margin: 0 0 15px 0px;
+	height: 200px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	display: table;
+}
+.thumbnail.banner h3.caption span{
+display: table-cell; 
+  vertical-align: middle;
+}
+
+/* ==== NAVBAR ===== */
+footer {
+	padding-top: 30px;
+	background-color: #f8f8f8;
+}
+footer ul {
+	list-style: none;
+	padding: 0;
+}
+footer .copy {
+	text-transform: uppercase;
+	border-top: 1px solid #ddd;
+	padding: 15px;
+	margin-top: 20px;
+	text-align: center;
+	color: #777;
+}

@@ -1,0 +1,21 @@
+/*
+* @Author: hakim
+* @Date:   2016-12-31 08:59:11
+* @Last Modified by:   hakim
+* @Last Modified time: 2016-12-31 09:05:37
+*/
+
+a {
+	color: #e74b3c;
+}
+.page-header {
+	background-color: #e74b3c;
+	color: #fff;
+	padding: 8px 20px;
+}
+.page-header small{ 
+	color: rgba(255,255,255,.6);
+}
+.tab-pane {
+	padding-top: 25px;
+}
